@@ -1,7 +1,9 @@
 import axios from 'axios';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import DOMPurify from 'dompurify';
+import Navbar from '../Navbar/Navbar';
+import HomePage from '../HomePage/HomePage';
 
 import './Coins.css';
 
@@ -22,8 +24,12 @@ const Coins = () => {
       })
   }, [])
 
+
   return (
     <>
+    <Link style={{ textDecoration: 'none' }} to="/" element={<HomePage />}>
+       <Navbar />
+       </Link>
         <div className='coinContainer'>
             <div className='content'>
                 <h1>{coin.name}</h1>

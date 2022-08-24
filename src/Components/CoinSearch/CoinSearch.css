@@ -1,0 +1,34 @@
+.CoinInputForm {
+  text-align: center;
+}
+
+.coinInput {
+  width: 30em;
+  height: 40px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 815px) {
+  .coinInput {
+    width: 20em;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .coinInput {
+    width: 15em;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  .coinInput {
+    width: 12em;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .coinInput {
+    width: 55vw;
+  }
+}

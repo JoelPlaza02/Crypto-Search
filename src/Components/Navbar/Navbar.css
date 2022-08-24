@@ -1,0 +1,26 @@
+.appHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coinIcon {
+  color: blue;
+  font-size: 25px;
+}
+
+.headingWrapper {
+  display: flex;
+  text-align: center;
+  gap: .7em;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: blue;
+}

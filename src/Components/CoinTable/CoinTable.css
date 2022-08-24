@@ -1,0 +1,78 @@
+.coinTable {
+  width: 60vw;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #26272b;
+  box-shadow: 0px 0px 12px #18191b;
+  border-radius: 8px;
+  border: 1px solid blue;
+  margin: 2rem 1rem;
+  padding: .7rem 1rem;
+  padding-left: 1.5rem;
+  font-weight: 700;
+}
+
+.heading:hover {
+  transform: scale(1.04);
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+.label {
+  font-size: 11px;
+  padding: 0 26px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+table tr {
+  padding: .35em;
+  text-decoration: none;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: 11px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  border: none;
+}
+
+tr {
+    font-size: 12px;
+}
+
+.marketCap, .volume {
+  font-size: 11px;
+  font-weight: 550;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .heading {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+}

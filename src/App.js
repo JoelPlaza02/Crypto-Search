@@ -10,7 +10,7 @@ function App() {
   return ( 
     <>
     <Routes>
-      <Route exact path="/" element={<HomePage />} render={"https://joelplaza02.github.io/Crypto-Search/"} />
+      <Route exact path="/" element={<HomePage />} />
       <Route path="/coin" element={<Coins />}>
           <Route path=":coinId" element={<Coins />} />
       </Route>

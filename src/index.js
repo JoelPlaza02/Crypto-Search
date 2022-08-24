@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Router>
+      <Router basename={"process.env.https://joelplaza02.github.io/Crypto-Search/"}>
         <App />
       </Router>
   </React.StrictMode>
